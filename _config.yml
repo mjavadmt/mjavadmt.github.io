@@ -18,7 +18,7 @@ minimal_mistakes_skin    : "sunrise" #"default" # "air", "aqua", "contrast", "da
 # Site Settings
 locale                   : "en-US" 
 title                    : "mjavadmt"
-title_separator          : "-"
+title_separator          : "---"
 name                     : "mohammadjavadmehditabar" 
 description              : "Wish you the best."
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
