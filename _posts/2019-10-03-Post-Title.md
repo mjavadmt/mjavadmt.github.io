@@ -1,9 +1,9 @@
 ---
 layout: posts
-title: Sample post 1
+title: list of best movies i've ever seen
 ---
 
-This is a sample post:
+fight club
 - *Post* one and **post** two.
 - bullet point two.
 
