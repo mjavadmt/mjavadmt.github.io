@@ -106,12 +106,13 @@ analytics:
 
 
 # Site Author
-author: "me"
+author: 
   name             :  " mjavad mt "
   avatar           : "/assets/images/bio-photo.jpg"
   bio              : "studing ce aas normal:))student at iust , kinda amazing field in nowadays life  , hope i enjoy it,long road to succeed:)) "
-  location         : "تهران"
+  location         : "babolsar"
   email            : mjavadmt80@gmail.com
+  
   twitter: 
   linkedin: "mjavad mt"
   google_scholar: 
