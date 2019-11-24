@@ -9,8 +9,8 @@ comments: false
 ---
 
 
-* [Favorite Author](http://myfavoritauthor.com)
-* [Places I want to visit](http://iwanttovisit.com)
+* [Favorite Author](https://en.wikipedia.org/wiki/Fredrik_Backman)
+* [Places I want to visit](https://en.wikipedia.org/wiki/Santiago_Bernab%C3%A9u_Stadium)
 * [My home city](http://homecity.com)
 * [My university](http://myuniversity.com)
 
