@@ -11,8 +11,8 @@ comments: false
 
 |           | **Current**                    |
 |----|------|--------------------------------|
-|2019|Fall  | **<a href="">Computer Programming Fundamentals</a>**         |
+|2019|Fall  | **<a href="https://sauleh.github.io/fc98/">Computer Programming Fundamentals</a>**         |
 |----|------|--------------------------------|
-|2019|Fall  | **<a href="">Computer Lab</a>** |
+|2019|Fall  | **<a href="https://sauleh.github.io/fc98/">Computer Lab</a>** |
 
 
