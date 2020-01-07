@@ -23,6 +23,10 @@ gallery:
     image_path: /assets/images/4.jpg
     alt: "placeholder image 4"
     title: "Image 4 title caption"
+    - url: /assets/images/download.jpg
+    image_path: /assets/images/download.jpg
+    alt: "placeholder image new"
+    title: "Image new title caption"
   - url: /assets/images/5.jpg
     image_path: /assets/images/5.jpg
     alt: "placeholder image 5"
