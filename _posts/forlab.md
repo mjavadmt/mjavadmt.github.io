@@ -1,6 +1,6 @@
 ---
 layout: posts
-title: list of best movies i've ever seen
+title: for lab
 ---
 
 -i have made this blog with dr etemadi's help and then i have posted sth like diy and talking with TA our website is [fc98](https://sauleh.github.io/fc98/)
