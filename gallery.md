@@ -31,10 +31,10 @@ gallery:
     image_path: /assets/images/images.jpg
     alt: "placeholder image images"
     title: "Image 5 title caption"    
-  - url: /assets/images/forlab.jpg
-    image_path: /assets/images/forlab.jpg
-    alt: "placeholder image forlab"
-    title: "Image for lab title caption"   
+  # - url: /assets/images/forlab.jpg
+  #   image_path: /assets/images/forlab.jpg
+  #   alt: "placeholder image forlab"
+  #   title: "Image for lab title caption"   
     
 ---
 
