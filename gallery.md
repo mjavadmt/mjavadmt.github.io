@@ -7,9 +7,9 @@ tags: [gallery]
 modified: 9-14-2019
 comments: false
 gallery:
-  - url: /assets/images/1.jpg
-    image_path: /assets/images/1.jpg
-    alt: "placeholder image 1"
+  - url: /assets/images/forlab.jpg
+    image_path: /assets/images/forlab.jpg
+    alt: "placeholder image forlab"
     title: "Image 1 title caption"
   - url: /assets/images/2.jpg
     image_path: /assets/images/2.jpg
