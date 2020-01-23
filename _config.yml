@@ -138,8 +138,8 @@ author:
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       # url: "https://instagram.com/"
-    - label: "Calendly"
-      icon: "fas fa-calendar-alt"
+    # - label: "Calendly"
+    #   icon: "fas fa-calendar-alt"
 
  
 
