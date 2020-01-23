@@ -118,6 +118,7 @@ author:
   google_scholar: 
   github: mjavadmt/rj
   instagram: mjavad_mt
+  calendly : mjavadmt80
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
@@ -137,6 +138,10 @@ author:
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       # url: "https://instagram.com/"
+    - label: "Calendly"
+      icon: "fas fa-calendar-alt"
+
+ 
 
 # Site Footer
 footer:

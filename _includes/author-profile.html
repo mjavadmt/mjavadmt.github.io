@@ -120,6 +120,13 @@
           </a>
         </li>
       {% endif %}
+    {% if author.calendly %}
+        <li>
+          <a href="https://www.calendly.com/{{ author.calendly }}" itemprop="sameAs" rel="nofollow noopener noreferrer">
+            <i class="fas fa-calendar-alt" aria-hidden="true"></i> Calendly
+          </a>
+        </li>
+      {% endif %}
 
       {% if author.tumblr %}
         <li>
