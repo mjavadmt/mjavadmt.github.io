@@ -27,7 +27,12 @@ in get method i move them toward the category the want <br/>
 # each job page :
 ![image of soloving]({{mjavadmt.github.io}}/assets/images/computer.png)
 * on the top of each page i insert a picture that matches to job
-* then i made a table which is made by the data that employers filled. in the table has 5 topic just like the form on the first page . if employer for instance choose the computer category one row will be added on the bottom with its data(like phone number,jobname,location,..) 
+* then i made a table which is made by the data that employers filled. in the table has 5 topic just like the form on the first page . if employer for instance choose the computer category one row will be added on the bottom with its data(like phone number,jobname,location,..) <br/>
+![image of soloving]({{mjavadmt.github.io}}/assets/images/art.png)
+<br/>
+![image of soloving]({{mjavadmt.github.io}}/assets/images/elec.png)
+
+
 
 
 
