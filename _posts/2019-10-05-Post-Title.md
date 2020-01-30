@@ -17,5 +17,9 @@ title: Hackaton
     - first part: get method ==>> clients just get information <br/>
     - second part: post method ==>> clients fill out the form for the other observer who wants to get a job <br/>
 in get method i move them toward the category the want <br/>
-* and templates with .html suffix that has the structure of the site and beautify it . in templates i have some html files that are jobs in each one i made a table for job to be in good order . 
+* then urls.py that each job have its unique url and when the clinet push for example computer in goes to computer url and render computer.html<br/>>
+* and templates with .html suffix that has the structure of the site and beautify it . in templates i have some html files that are jobs in each one i made a table for job to be in good order . <br/>
+
+# some pictures of my website
+
 ---
