@@ -7,7 +7,7 @@ title: Hackaton
 
 <br/>
 # project idea :
-ایده پروزه ی من به دلیل این که افراد در این دوران دنبال کار می گردند و به راحتی کاری پیدا نمی کنند به ذعنم رسید . <br/>
+this idea came to my mind because in these days people can't find job easily and have too problem to find their favourite job . <br/>
 <br/>
 
 # the way I execute and desing project :
