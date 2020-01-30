@@ -9,9 +9,6 @@ lion
 forrest gump
 beautifull mind
 testing
-- *Post* one and **post** two.
-- bullet point two.
 
 
 ---
-**Test**: This is atest
