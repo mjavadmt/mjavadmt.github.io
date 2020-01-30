@@ -26,6 +26,8 @@ in get method i move them toward the category the want <br/>
 ![image of soloving]({{mjavadmt.github.io}}/assets/images/django.png)
 * on the top of the page if you're looking for a job you can pick one of these categories and find your favourite job<br/>
 * on the bottom of the page if you're employer you can fill out the form for employees in specified category to be convinient for them to find job.<br/>
+# each job page :
+
 
 
 
