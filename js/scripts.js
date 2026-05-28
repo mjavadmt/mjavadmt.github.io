@@ -1,35 +1,75 @@
-/*!
- * Start Bootstrap - Resume v7.0.6 (https://startbootstrap.com/theme/resume)
- * Copyright 2013-2023 Start Bootstrap
- * Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-resume/blob/master/LICENSE)
- */
-//
-// Scripts
-//
-
-
-
-window.addEventListener("DOMContentLoaded", (event) => {
-
-  // Activate Bootstrap scrollspy on the main nav element
-  const sideNav = document.body.querySelector("#sideNav");
-  if (sideNav) {
-    new bootstrap.ScrollSpy(document.body, {
-      target: "#sideNav",
-      rootMargin: "0px 0px -40%",
+document.addEventListener('DOMContentLoaded', () => {
+  // Mobile Nav Toggle
+  const mobileToggle = document.querySelector('.mobile-nav-toggle');
+  const sidebar = document.querySelector('.sidebar');
+  
+  if (mobileToggle) {
+    mobileToggle.addEventListener('click', () => {
+      sidebar.classList.toggle('active');
     });
   }
 
-  // Collapse responsive navbar when toggler is visible
-  const navbarToggler = document.body.querySelector(".navbar-toggler");
-  const responsiveNavItems = [].slice.call(
-    document.querySelectorAll("#navbarResponsive .nav-link")
-  );
-  responsiveNavItems.map(function (responsiveNavItem) {
-    responsiveNavItem.addEventListener("click", () => {
-      if (window.getComputedStyle(navbarToggler).display !== "none") {
-        navbarToggler.click();
+  // Close sidebar when clicking outside on mobile
+  document.addEventListener('click', (e) => {
+    if (window.innerWidth <= 991) {
+      if (!sidebar.contains(e.target) && !mobileToggle.contains(e.target) && sidebar.classList.contains('active')) {
+        sidebar.classList.remove('active');
+      }
+    }
+  });
+
+  // Smooth scrolling
+  const navLinks = document.querySelectorAll('.nav-menu a');
+  
+  navLinks.forEach(link => {
+    link.addEventListener('click', function(e) {
+      e.preventDefault();
+      
+      if (window.innerWidth <= 991) {
+        sidebar.classList.remove('active');
+      }
+      
+      const targetId = this.getAttribute('href');
+      if (targetId === '#') return;
+      
+      const targetSection = document.querySelector(targetId);
+      if (targetSection) {
+        targetSection.scrollIntoView({
+          behavior: 'smooth'
+        });
       }
     });
+  });
+
+  // Scroll active state & Reveal animations
+  const sections = document.querySelectorAll('section');
+  
+  const observerOptions = {
+    root: null,
+    rootMargin: '0px',
+    threshold: 0.15
+  };
+
+  const sectionObserver = new IntersectionObserver((entries, observer) => {
+    entries.forEach(entry => {
+      // Reveal animation
+      if (entry.isIntersecting) {
+        entry.target.classList.add('active');
+        
+        // Active Nav State
+        const id = entry.target.getAttribute('id');
+        navLinks.forEach(link => {
+          link.classList.remove('active');
+          if (link.getAttribute('href') === `#${id}`) {
+            link.classList.add('active');
+          }
+        });
+      }
+    });
+  }, observerOptions);
+
+  sections.forEach(section => {
+    section.classList.add('reveal');
+    sectionObserver.observe(section);
   });
 });
